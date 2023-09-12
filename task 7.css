@@ -1,0 +1,65 @@
+/* Reset some default styles */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Vertical Navigation Bar */
+.vertical-nav {
+    background-color: skyblue;
+    border: solid 1px black;
+    float: left;
+    width: 20%; /* Adjust the width as needed */
+    padding: 20px;
+}
+
+.nav-container {
+    border: 10px solid white;
+}
+
+.vertical-nav h1 {
+    background-color: orange;
+    padding: 20px;
+}
+
+.vertical-nav h1 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.vertical-nav h1:hover {
+    background-color: rgb(60, 52, 52);
+}
+
+/* Horizontal Navigation Bar */
+.horizontal-nav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: grey;
+}
+
+.horizontal-nav li {
+    float: left;
+    border-right: 1px solid blue;
+}
+
+.horizontal-nav li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.horizontal-nav li a:hover:not(.active) {
+    background-color: rgb(60, 52, 52);
+}
+
+.horizontal-nav .active {
+    background-color: rgb(66, 61, 61);
+}
